@@ -24,10 +24,6 @@ tr {
   color: #494848;
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Inter", sans-serif;
 }
@@ -515,6 +511,7 @@ header .container .icon-header ul li .text-icon-header h5 {
   line-height: 2.4rem;
   text-align: center;
   color: #0E333D;
+  margin-bottom: 0.5rem;
 }
 
 .input-cadastro-cli-e-workers {
