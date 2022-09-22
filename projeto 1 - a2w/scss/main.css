@@ -562,6 +562,37 @@ header .container .icon-header ul li .text-icon-header h5 {
   .section-cadastro-worker .container .input-cadastro-cli-e-workers {
     max-width: 178rem;
   }
+  .section-login .img-login-bg {
+    margin-left: -17rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .section-login .circulo-login {
+    width: 125em;
+    height: 135rem;
+    border-radius: 128rem;
+    background-color: white;
+    margin-left: 54rem;
+    margin-top: -10rem;
+    position: relative;
+  }
+  .section-login .circulo-login .text-circulo-login {
+    padding-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -28rem;
+  }
+  .section-login .circulo-login .text-circulo-login p {
+    padding-left: 56.6rem;
+  }
+  .section-login .circulo-login .text-circulo-login input {
+    margin-left: 56.6rem;
+    margin-bottom: 5.1rem;
+  }
+  .section-login .circulo-login .text-circulo-login .btn-login button {
+    width: 40rem;
+  }
 }
 @media (max-width: 1700px) {
   .section-tabela .container2 table tr .tam-icon-tabela {
@@ -612,6 +643,37 @@ header .container .icon-header ul li .text-icon-header h5 {
   .section-perfil form .input-esp .input1 .text-input {
     max-width: 89rem;
   }
+  .section-login .img-login-bg {
+    margin-left: -17rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .section-login .circulo-login {
+    width: 125em;
+    height: 135rem;
+    border-radius: 128rem;
+    background-color: white;
+    margin-left: 54rem;
+    margin-top: -10rem;
+    position: relative;
+  }
+  .section-login .circulo-login .text-circulo-login {
+    padding-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -28rem;
+  }
+  .section-login .circulo-login .text-circulo-login p {
+    padding-left: 56.6rem;
+  }
+  .section-login .circulo-login .text-circulo-login input {
+    margin-left: 56.6rem;
+    margin-bottom: 5.1rem;
+  }
+  .section-login .circulo-login .text-circulo-login .btn-login button {
+    width: 40rem;
+  }
 }
 @media (max-width: 1600px) {
   .section-tabela .container2 table tr .tam-icon-tabela {
@@ -657,6 +719,67 @@ header .container .icon-header ul li .text-icon-header h5 {
   }
   .section-perfil form .input-esp .input1 .text-input {
     max-width: 83rem;
+  }
+  .section-login .img-login-bg {
+    margin-left: -3rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .section-login .circulo-login {
+    width: 114em;
+    height: 114.3rem;
+    border-radius: 96rem;
+    background-color: white;
+    margin-left: 60rem;
+    margin-top: -10rem;
+    position: relative;
+  }
+  .section-login .circulo-login .text-circulo-login {
+    padding-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section-login .circulo-login .text-circulo-login p {
+    padding-left: 37.7rem;
+  }
+  .section-login .circulo-login .text-circulo-login input {
+    margin-left: 37.7rem;
+    margin-bottom: 5.1rem;
+  }
+  .section-login .circulo-login .text-circulo-login .btn-login button {
+    width: 40rem;
+  }
+  .section-login .img-login-bg {
+    margin-left: -17rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .section-login .circulo-login {
+    width: 125em;
+    height: 135rem;
+    border-radius: 128rem;
+    background-color: white;
+    margin-left: 54rem;
+    margin-top: -10rem;
+    position: relative;
+  }
+  .section-login .circulo-login .text-circulo-login {
+    padding-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -28rem;
+  }
+  .section-login .circulo-login .text-circulo-login p {
+    padding-left: 56.6rem;
+  }
+  .section-login .circulo-login .text-circulo-login input {
+    margin-left: 56.6rem;
+    margin-bottom: 5.1rem;
+  }
+  .section-login .circulo-login .text-circulo-login .btn-login button {
+    width: 40rem;
   }
 }
 @media (max-width: 1550px) {
@@ -706,6 +829,37 @@ header .container .icon-header ul li .text-icon-header h5 {
   .section-perfil form .input-esp .input1 .text-input {
     max-width: 80rem;
   }
+  .section-login .img-login-bg {
+    margin-left: -17rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .section-login .circulo-login {
+    width: 125em;
+    height: 135rem;
+    border-radius: 128rem;
+    background-color: white;
+    margin-left: 54rem;
+    margin-top: -10rem;
+    position: relative;
+  }
+  .section-login .circulo-login .text-circulo-login {
+    padding-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -28rem;
+  }
+  .section-login .circulo-login .text-circulo-login p {
+    padding-left: 56.6rem;
+  }
+  .section-login .circulo-login .text-circulo-login input {
+    margin-left: 56.6rem;
+    margin-bottom: 5.1rem;
+  }
+  .section-login .circulo-login .text-circulo-login .btn-login button {
+    width: 40rem;
+  }
 }
 @media (max-width: 1440px) {
   .section-tabela .container2 table tr .tam-icon-tabela {
@@ -741,6 +895,37 @@ header .container .icon-header ul li .text-icon-header h5 {
   }
   .section-perfil form .input-esp .input1 .text-input {
     max-width: 76rem;
+  }
+  .section-login .img-login-bg {
+    margin-left: -17rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .section-login .circulo-login {
+    width: 125em;
+    height: 135rem;
+    border-radius: 128rem;
+    background-color: white;
+    margin-left: 54rem;
+    margin-top: -10rem;
+    position: relative;
+  }
+  .section-login .circulo-login .text-circulo-login {
+    padding-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -22rem;
+  }
+  .section-login .circulo-login .text-circulo-login p {
+    padding-left: 54rem;
+  }
+  .section-login .circulo-login .text-circulo-login input {
+    margin-left: 54rem;
+    margin-bottom: 5.1rem;
+  }
+  .section-login .circulo-login .text-circulo-login .btn-login button {
+    width: 40rem;
   }
 }
 @media (max-width: 1400px) {
@@ -803,6 +988,37 @@ header .container .icon-header ul li .text-icon-header h5 {
   }
   .section-perfil form .input-esp .input1 .text-input {
     max-width: 82.5rem;
+  }
+  .section-login .img-login-bg {
+    margin-left: -17rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .section-login .circulo-login {
+    width: 120em;
+    height: 128rem;
+    border-radius: 128rem;
+    background-color: white;
+    margin-left: 54rem;
+    margin-top: -10rem;
+    position: relative;
+  }
+  .section-login .circulo-login .text-circulo-login {
+    padding-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -22rem;
+  }
+  .section-login .circulo-login .text-circulo-login p {
+    padding-left: 51.7rem;
+  }
+  .section-login .circulo-login .text-circulo-login input {
+    margin-left: 51.7rem;
+    margin-bottom: 5.1rem;
+  }
+  .section-login .circulo-login .text-circulo-login .btn-login button {
+    width: 40rem;
   }
 }
 @media (max-width: 1350px) {
@@ -915,6 +1131,37 @@ header .container .icon-header ul li .text-icon-header h5 {
   }
   .section-perfil form .input-esp .input1 .text-input {
     max-width: 73.5rem;
+  }
+  .section-login .img-login-bg {
+    margin-left: -17rem;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .section-login .circulo-login {
+    width: 125em;
+    height: 135rem;
+    border-radius: 128rem;
+    background-color: white;
+    margin-left: 54rem;
+    margin-top: -10rem;
+    position: relative;
+  }
+  .section-login .circulo-login .text-circulo-login {
+    padding-top: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -22rem;
+  }
+  .section-login .circulo-login .text-circulo-login p {
+    padding-left: 54rem;
+  }
+  .section-login .circulo-login .text-circulo-login input {
+    margin-left: 54rem;
+    margin-bottom: 5.1rem;
+  }
+  .section-login .circulo-login .text-circulo-login .btn-login button {
+    width: 40rem;
   }
 }
 @media (max-width: 1000px) {
