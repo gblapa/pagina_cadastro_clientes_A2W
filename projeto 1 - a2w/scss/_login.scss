@@ -1,0 +1,69 @@
+.section-login
+{
+    .img-login-bg
+    {
+        margin-top: 10rem;
+        position: absolute;
+    }
+    .circulo-login {
+        width: 120rem;
+        height: 120rem;
+        border-radius: 76rem;
+        background-color: white;
+        margin-left: 60rem;
+        margin-top: -10rem;
+        position: relative;
+        .text-circulo-login {
+            padding-top: 35rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h5 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 2.9rem;
+                line-height: 3.5rem;
+                text-align: center;
+                color: #0E333D;
+                position: relative;
+                margin-bottom: 4.6rem;
+            }
+            p {
+                padding-left: 40.2rem;
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 1.8rem;
+                line-height: 2.1rem;
+                color: #847F7F;
+            }
+            input {
+                width: 39rem;
+                height: 5.9rem;
+                border: 1px solid #847F7F;
+                border-radius: 5px;
+                margin-left: 40.2rem;
+                padding: 1.5rem;
+                margin-bottom: 5.1rem;
+            }
+            .btn-login
+            {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 3rem;
+                button {
+                    width: 40rem;
+                }
+            }
+            h6 {
+                font-family: 'Inter';
+                font-weight: 700;
+                font-size: 2.0rem;
+                line-height: 2.4rem;
+                text-align: center;
+                color: #0E333D;
+            }
+        }
+    }
+}

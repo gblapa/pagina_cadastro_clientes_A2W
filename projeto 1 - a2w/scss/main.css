@@ -1,0 +1,981 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}
+
+tr {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  color: #494848;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", sans-serif;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  text-align: center;
+  color: #494848;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #494848;
+}
+
+button {
+  width: 7rem;
+  height: 4rem;
+  background: #0E333D;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+header .container {
+  background-color: #0E333D;
+  max-width: 100%;
+  height: 18rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .retangulo {
+  width: 65rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+}
+header .container .retangulo .input-header {
+  background-color: #ffffff;
+  border-radius: 10rem;
+  width: 65rem;
+  height: 7rem;
+  padding-left: 2.3rem;
+  position: absolute;
+}
+header .container .retangulo img {
+  position: relative;
+  max-width: 3.5rem;
+  max-height: 3.5rem;
+  margin-left: 2.4rem;
+  margin-right: 3.5rem;
+}
+header .container .retangulo p {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 27px;
+  color: #C8C4C4;
+  position: relative;
+}
+header .container nav .menu-principal .ul-esp :hover .sub-menu {
+  visibility: visible;
+}
+header .container nav .menu-principal .ul-esp .cadastros {
+  padding-top: 8.8rem;
+}
+header .container nav .menu-principal ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav .menu-principal ul li:not(:nth-child(2)) {
+  margin-right: 6rem;
+}
+header .container nav .menu-principal ul li h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+header .container nav .menu-principal ul li .sub-menu {
+  visibility: hidden;
+}
+header .container nav .menu-principal ul li .sub-menu ul {
+  background-color: white;
+  max-width: 13.6rem;
+  height: 9rem;
+  border: #000000 solid 0.5px;
+}
+header .container nav .menu-principal ul li .sub-menu ul li h5 {
+  color: #0E333D;
+  padding-bottom: 5px;
+  padding-left: 12px;
+}
+header .container .icon-header {
+  padding-top: 9.8rem;
+}
+header .container .icon-header ul :hover .text-icon-header {
+  visibility: visible;
+}
+header .container .icon-header ul li .text-icon-header {
+  visibility: hidden;
+  background-color: white;
+}
+header .container .icon-header ul li .text-icon-header h5 {
+  padding: 7px 9px;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 34px;
+  color: #0E333D;
+}
+
+.section-tabela .container2 {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.section-tabela .container2 .text {
+  margin-top: 3.7rem;
+  margin-bottom: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.section-tabela .container2 .text h6 {
+  font-weight: 700;
+  color: #0E333D;
+}
+.section-tabela .container2 .text .btn-tabela {
+  width: 7rem;
+  height: 4rem;
+  background: #0E333D;
+  border-radius: 1rem;
+  color: white;
+}
+.section-tabela .container2 table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px #636060 solid;
+}
+.section-tabela .container2 table tr .container-linha {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px #636060 solid;
+}
+.section-tabela .container2 table tr .tam {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px #636060 solid;
+}
+.section-tabela .container2 table tr .tam .circulo {
+  width: 3rem;
+  height: 3rem;
+  background: #4CAF50;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.section-tabela .container2 table tr .tam-icon-tabela {
+  border: 1px #636060 solid;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -39.5px;
+}
+.section-tabela .container2 table tr .tam-icon-tabela .icon-tabela {
+  width: 3rem;
+  height: 3rem;
+  background: #D9D9D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fundo-tabela {
+  background: rgba(217, 217, 217, 0.8);
+  opacity: 0.4;
+  height: 2000px;
+  width: 100%;
+  position: absolute;
+}
+.fundo-tabela .section-tabela2 .container2 {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.fundo-tabela .section-tabela2 .container2 .text {
+  margin-top: 3.7rem;
+  margin-bottom: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.fundo-tabela .section-tabela2 .container2 .text h6 {
+  font-weight: 700;
+  color: #0E333D;
+}
+.fundo-tabela .section-tabela2 .container2 .text .btn-tabela {
+  width: 7rem;
+  height: 4rem;
+  background: #0E333D;
+  border-radius: 1rem;
+  color: white;
+}
+.fundo-tabela .section-tabela2 .container2 table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px #636060 solid;
+}
+.fundo-tabela .section-tabela2 .container2 table tr .container-linha {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px #636060 solid;
+}
+.fundo-tabela .section-tabela2 .container2 table tr .tam {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px #636060 solid;
+}
+.fundo-tabela .section-tabela2 .container2 table tr .tam .circulo {
+  width: 3rem;
+  height: 3rem;
+  background: #4CAF50;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+  border: 1px #636060 solid;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -39px;
+}
+.fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela .icon-tabela {
+  width: 3rem;
+  height: 3rem;
+  background: #D9D9D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status {
+  position: relative;
+  width: 62.5rem;
+  height: 40.3rem;
+  margin-left: 60rem;
+  margin-top: 18.5rem;
+}
+.status .container-status .text-status-1 {
+  background-color: #0E333D;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status .container-status .text-status-1 h6 {
+  color: white;
+}
+.status .container-status .text-status-1 .icon-text-status1 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 3rem;
+  background-color: #C4C4C4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.status .part-sup {
+  background-color: white;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.status .part-sup .text-part-sup .icon-part-sup {
+  display: flex;
+  align-items: center;
+}
+.status .part-sup .text-part-sup .icon-part-sup h6 {
+  padding-right: 1.8rem;
+}
+.status .part-sup .text-part-sup .icon-part-sup .circle-part-sup {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background: #4CAF50;
+}
+.status .prim-text {
+  padding-left: 3rem;
+  padding-top: 2rem;
+  background-color: white;
+}
+.status .prim-text p:not(:nth-child(2)) {
+  padding-bottom: 1rem;
+}
+.status .segun-text {
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2.4rem;
+  background-color: white;
+}
+.status .segun-text p:not(:nth-child(2)) {
+  padding-bottom: 1rem;
+}
+.status .btn-status {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15.3rem;
+  padding-right: 15.3rem;
+  padding-bottom: 2rem;
+  background-color: white;
+}
+.status .btn-status button {
+  width: 10.3rem;
+  height: 5.5rem;
+  border-radius: 1rem;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.status .btn-status .btn-status-verde {
+  background-color: #058D0B;
+}
+.status .btn-status .btn-status-vermelho {
+  background-color: #FF1100;
+}
+
+.container {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+.container .text {
+  margin-top: 3.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .text h6 {
+  color: #0E333D;
+  font-weight: 700;
+}
+.container .text button {
+  width: 10rem;
+  height: 4rem;
+}
+.container .input-esp {
+  height: 7.5rem;
+}
+.container .input-esp .input1 {
+  margin-top: 5.7rem;
+}
+.container .input-esp .input1 p {
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #847F7F;
+}
+.container .input-esp .input1 .text-input {
+  max-width: 972px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .btn-add-cadastro {
+  max-width: 20rem;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .btn-add-cadastro .icon-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .text-alterar-senha p {
+  margin-top: 5.5rem;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #847F7F;
+}
+
+.container form .text-input2 {
+  margin-top: 20rem;
+  max-width: 131.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-login .img-login-bg {
+  margin-top: 10rem;
+  position: absolute;
+}
+.section-login .circulo-login {
+  width: 120rem;
+  height: 120rem;
+  border-radius: 76rem;
+  background-color: white;
+  margin-left: 60rem;
+  margin-top: -10rem;
+  position: relative;
+}
+.section-login .circulo-login .text-circulo-login {
+  padding-top: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-login .circulo-login .text-circulo-login h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.9rem;
+  line-height: 3.5rem;
+  text-align: center;
+  color: #0E333D;
+  position: relative;
+  margin-bottom: 4.6rem;
+}
+.section-login .circulo-login .text-circulo-login p {
+  padding-left: 40.2rem;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #847F7F;
+}
+.section-login .circulo-login .text-circulo-login input {
+  width: 39rem;
+  height: 5.9rem;
+  border: 1px solid #847F7F;
+  border-radius: 5px;
+  margin-left: 40.2rem;
+  padding: 1.5rem;
+  margin-bottom: 5.1rem;
+}
+.section-login .circulo-login .text-circulo-login .btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.section-login .circulo-login .text-circulo-login .btn-login button {
+  width: 40rem;
+}
+.section-login .circulo-login .text-circulo-login h6 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: #0E333D;
+}
+
+.input-cadastro-cli-e-workers {
+  width: 100%;
+  max-width: 178rem;
+  height: 7rem;
+  border: solid 1px #847F7F;
+  border-radius: 5px;
+  position: absolute;
+  padding: 2rem;
+}
+
+.input-cadastro-cli-e-workers2 {
+  width: 45%;
+  max-width: 178rem;
+  height: 7rem;
+  border: solid 1px #847F7F;
+  border-radius: 5px;
+  position: absolute;
+  padding: 2rem;
+}
+
+.input-cadastro-cli-e-workers2-1 {
+  width: 45%;
+  max-width: 178rem;
+  height: 7rem;
+  border: solid 1px #847F7F;
+  border-radius: 5px;
+  position: absolute;
+  padding: 2rem;
+  margin-left: 91.5rem;
+}
+
+.input-cadastro-cli-e-workers2-2 {
+  width: 20%;
+  max-width: 178rem;
+  height: 7rem;
+  border: solid 1px #847F7F;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-right: 21rem;
+}
+
+@media (max-width: 1920px) {
+  .section-cadastro-worker .container {
+    max-width: 192rem;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 178rem;
+  }
+}
+@media (max-width: 1700px) {
+  .section-tabela .container2 table tr .tam-icon-tabela {
+    margin-right: -33.5px;
+  }
+  .fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+    margin-right: -33.5px;
+  }
+  .status {
+    position: relative;
+    width: 62.5rem;
+    height: 40.3rem;
+    margin-left: 49rem;
+    margin-top: 18.5rem;
+  }
+  .input-cadastro-cli-e-workers {
+    max-width: 156rem;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 156rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 80px;
+  }
+  .input-cadastro-cli-e-workers2 {
+    width: 42.5%;
+  }
+  .input-cadastro-cli-e-workers2-1 {
+    width: 42.5%;
+    margin-left: 835px;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input .text-email {
+    margin-right: 83px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-1 {
+    margin-left: 828px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-2 {
+    width: 19.75%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input2 {
+    max-width: 122rem;
+  }
+  .section-alterar-senha form .input-esp .input1 .inputs-1 {
+    max-width: 159rem;
+    display: flex;
+  }
+  .section-perfil form .input-esp .input1 .text-input {
+    max-width: 89rem;
+  }
+}
+@media (max-width: 1600px) {
+  .section-tabela .container2 table tr .tam-icon-tabela {
+    margin-right: -32px;
+  }
+  .fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+    margin-right: -32px;
+  }
+  .status {
+    position: relative;
+    width: 62.5rem;
+    height: 40.3rem;
+    margin-left: 46rem;
+    margin-top: 18.5rem;
+  }
+  .input-cadastro-cli-e-workers {
+    max-width: 146rem;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 145.6rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 139px;
+  }
+  .input-cadastro-cli-e-workers2 {
+    width: 42.5%;
+  }
+  .input-cadastro-cli-e-workers2-1 {
+    width: 42.5%;
+    margin-left: 775px;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input .text-email {
+    margin-right: 141px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-1 {
+    margin-left: 770px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-2 {
+    width: 18.75%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input2 {
+    max-width: 115rem;
+  }
+  .section-perfil form .input-esp .input1 .text-input {
+    max-width: 83rem;
+  }
+}
+@media (max-width: 1550px) {
+  .section-tabela .container2 table tr .tam-icon-tabela {
+    margin-right: -30.5px;
+  }
+  .fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+    margin-right: -31px;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 141rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 139px;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .inputs .input-cadastro-cli-e-workers2 {
+    width: 41.3%;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .inputs .input-cadastro-cli-e-workers2-1 {
+    width: 41.3%;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 140.2rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 16.3rem;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input .text-email {
+    margin-right: 17.5rem;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-1 {
+    margin-left: 735px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-2 {
+    width: 18.3%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input2 {
+    max-width: 112rem;
+  }
+  .input-cadastro-cli-e-workers {
+    max-width: 140.8rem;
+  }
+  .input-cadastro-cli-e-workers2-1 {
+    width: 42.5%;
+    margin-left: 75rem;
+  }
+  .section-perfil form .input-esp .input1 .text-input {
+    max-width: 80rem;
+  }
+}
+@media (max-width: 1440px) {
+  .section-tabela .container2 table tr .tam-icon-tabela {
+    margin-right: -25.9px;
+  }
+  .fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+    margin-right: -27.5px;
+  }
+  .input-cadastro-cli-e-workers {
+    max-width: 130rem;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input .text-email {
+    margin-right: 241px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-1 {
+    margin-left: 670px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-2 {
+    width: 17%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input2 {
+    max-width: 104.6rem;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 129.6rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 21rem;
+  }
+  .input-cadastro-cli-e-workers2-1 {
+    width: 42.5%;
+    margin-left: 704px;
+  }
+  .section-perfil form .input-esp .input1 .text-input {
+    max-width: 76rem;
+  }
+}
+@media (max-width: 1400px) {
+  html {
+    font-size: 55.5%;
+  }
+  header .container .retangulo {
+    width: 57rem;
+  }
+  header .container .retangulo .input-header {
+    width: 57rem;
+  }
+  .section-tabela .container2 table tr .tam-icon-tabela {
+    margin-right: -27px;
+  }
+  .fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+    margin-right: -27px;
+  }
+  .status {
+    position: relative;
+    width: 62.5rem;
+    height: 40.3rem;
+    margin-left: 44rem;
+    margin-top: 18.5rem;
+  }
+  .input-cadastro-cli-e-workers {
+    max-width: 143rem;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 143.6rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 235px;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .inputs .input-cadastro-cli-e-workers2-1 {
+    width: 42.3%;
+  }
+  .input-cadastro-cli-e-workers2 {
+    width: 42.5%;
+  }
+  .input-cadastro-cli-e-workers2-1 {
+    width: 42.5%;
+    margin-left: 680px;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input .text-email {
+    margin-right: 240px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-1 {
+    margin-left: 670px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-2 {
+    width: 26.75%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input2 {
+    max-width: 116rem;
+  }
+  .section-alterar-senha form .input-esp .input1 .inputs-1 {
+    max-width: 145rem;
+    display: flex;
+  }
+  .section-perfil form .input-esp .input1 .text-input {
+    max-width: 82.5rem;
+  }
+}
+@media (max-width: 1350px) {
+  .section-tabela .container2 table tr .tam-icon-tabela {
+    margin-right: -25.5px;
+  }
+  .fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+    margin-right: -26.7px;
+  }
+  .input-cadastro-cli-e-workers {
+    max-width: 137.7rem;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 137.5rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 235px;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .inputs .input-cadastro-cli-e-workers2-1 {
+    width: 40%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input .text-email {
+    margin-right: 265px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-1 {
+    margin-left: 645px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-2 {
+    width: 26.75%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input2 {
+    max-width: 112rem;
+  }
+  .section-alterar-senha form .input-esp .input1 .inputs-1 {
+    max-width: 145rem;
+    display: flex;
+  }
+  .input-cadastro-cli-e-workers2-1 {
+    width: 42.5%;
+    margin-left: 73rem;
+  }
+  .section-perfil form .input-esp .input1 .text-input {
+    max-width: 79rem;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 53.5%;
+  }
+  header .container .retangulo {
+    width: 55rem;
+  }
+  header .container .retangulo .input-header {
+    width: 55rem;
+  }
+  header .container .icon-header {
+    padding-top: 10.5rem;
+  }
+  header .container .icon-header ul li img {
+    max-width: 6.7rem;
+    max-height: 6.7rem;
+  }
+  .section-tabela .container2 table tr .tam-icon-tabela {
+    margin-right: -21px;
+  }
+  .fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+    margin-right: -21px;
+  }
+  .status {
+    position: relative;
+    width: 62.5rem;
+    height: 40.3rem;
+    margin-left: 38rem;
+    margin-top: 18.5rem;
+  }
+  .input-cadastro-cli-e-workers {
+    max-width: 126rem;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 125.6rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 335px;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .inputs .input-cadastro-cli-e-workers2-1 {
+    width: 41.3%;
+  }
+  .input-cadastro-cli-e-workers2 {
+    width: 41.5%;
+  }
+  .input-cadastro-cli-e-workers2-1 {
+    width: 41.5%;
+    margin-left: 577px;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input .text-email {
+    margin-right: 340px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-1 {
+    margin-left: 570px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-2 {
+    width: 16%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input2 {
+    max-width: 97rem;
+  }
+  .section-alterar-senha form .input-esp .input1 .inputs-1 {
+    max-width: 115rem;
+    display: flex;
+  }
+  .section-perfil form .input-esp .input1 .text-input {
+    max-width: 73.5rem;
+  }
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 45.5%;
+  }
+  header .container .retangulo {
+    width: 50rem;
+  }
+  header .container .retangulo .input-header {
+    width: 50rem;
+  }
+  header .container .icon-header {
+    padding-top: 13.5rem;
+  }
+  header .container .icon-header ul li img {
+    max-width: 6.5rem;
+    max-height: 6.5rem;
+  }
+  .section-tabela .container2 table tr .tam-icon-tabela {
+    margin-right: -16.5px;
+  }
+  .fundo-tabela .section-tabela2 .container2 table tr .tam-icon-tabela {
+    margin-right: -16.5px;
+  }
+  .input-cadastro-cli-e-workers {
+    max-width: 123rem;
+  }
+  .section-cadastro-worker .container .input-cadastro-cli-e-workers {
+    max-width: 123.5rem;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .text-input .text-cliente {
+    margin-right: 342px;
+  }
+  .section-cadastro-worker .container form .input-esp .input1 .inputs .input-cadastro-cli-e-workers2-1 {
+    width: 40.3%;
+  }
+  .input-cadastro-cli-e-workers2-1 {
+    width: 40%;
+    margin-left: 497px;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input .text-email {
+    margin-right: 350px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-1 {
+    margin-left: 490px;
+  }
+  .section-alterar-senha form .input-esp .input1 .input-cadastro-cli-e-workers2-2 {
+    width: 14.9%;
+  }
+  .section-alterar-senha form .input-esp .input1 .text-input2 {
+    max-width: 100.6rem;
+  }
+  .section-alterar-senha form .input-esp .input1 .inputs-1 {
+    max-width: 115rem;
+    display: flex;
+  }
+  .section-perfil form .input-esp .input1 .text-input {
+    max-width: 75.5rem;
+  }
+}/*# sourceMappingURL=main.css.map */

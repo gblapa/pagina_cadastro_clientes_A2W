@@ -1,0 +1,51 @@
+.container {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    .text {
+        margin-top: 3.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h6 {
+            color: $cor-principal;
+            font-weight: 700;
+        }
+        button {
+            width: 10rem;
+            height: 4rem;
+        }
+    }
+    .input-esp {
+        height: 7.5rem;
+        .input1 {
+            margin-top: 5.7rem;
+            p {
+                position: relative;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #847F7F;
+            }
+            .text-input {
+                max-width: 972px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .btn-add-cadastro {
+        max-width: 20rem;
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .icon-cadastro {
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+    }
+}

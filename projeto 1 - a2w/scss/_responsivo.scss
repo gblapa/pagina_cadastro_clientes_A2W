@@ -1,0 +1,878 @@
+@mixin responsive($resolucao) {
+    @media (max-width: $resolucao) {
+        @content;
+    }
+}
+
+@include responsive(1920px)
+{
+    .section-cadastro-worker {
+        .container {
+            max-width: 192rem;
+            .input-cadastro-cli-e-workers {
+                max-width: 178rem;
+            }
+        }
+    }
+
+}
+
+@include responsive(1700px)
+{
+    .section-tabela{
+        .container2 {
+            table {
+                tr {
+                    .tam-icon-tabela {
+                        margin-right: -33.5px;
+                    }
+                }
+            }
+        }
+    }
+    .fundo-tabela {
+        .section-tabela2{
+            .container2 {
+                table {
+                    tr {
+                        .tam-icon-tabela {
+                            margin-right: -33.5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .status {
+        position: relative;
+        width: 62.5rem;
+        height: 40.3rem;
+        margin-left: 49rem;
+        margin-top: 18.5rem;
+    }
+    .input-cadastro-cli-e-workers {
+        max-width: 156rem;
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 156rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 80px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers2 {
+        width: 42.5%;
+    }
+    .input-cadastro-cli-e-workers2-1 {
+        width: 42.5%;
+        margin-left: 835px;
+    }
+
+    .section-alterar-senha {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        .text-email {
+                            margin-right: 83px;
+                        }
+                    }
+                    .input-cadastro-cli-e-workers2-1 {
+                        margin-left: 828px
+                    }
+                    .input-cadastro-cli-e-workers2-2 {
+                        width: 19.75%;
+                    }
+                    .text-input2 {
+                        max-width: 122rem;
+                    }
+                    .inputs-1 {
+                        max-width: 159rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    .section-perfil {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        max-width: 89rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive(1600px)
+{
+    .section-tabela {
+        .container2 {
+            table {
+                tr {
+                    .tam-icon-tabela {
+                        margin-right: -32px;
+                    }
+                }
+            }
+        }
+    }
+    .fundo-tabela {
+        .section-tabela2 {
+            .container2 {
+                table {
+                    tr {
+                        .tam-icon-tabela {
+                            margin-right: -32px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .status {
+        position: relative;
+        width: 62.5rem;
+        height: 40.3rem;
+        margin-left: 46rem;
+        margin-top: 18.5rem;
+    }
+    .input-cadastro-cli-e-workers {
+        max-width: 146rem;
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 145.6rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 139px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers2 {
+        width: 42.5%;
+    }
+    .input-cadastro-cli-e-workers2-1 {
+        width: 42.5%;
+        margin-left: 775px;
+    }
+    .section-alterar-senha {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        .text-email {
+                            margin-right: 141px;
+                        }
+                    }
+                    .input-cadastro-cli-e-workers2-1 {
+                        margin-left: 770px
+                    }
+                    .input-cadastro-cli-e-workers2-2 {
+                        width: 18.75%;
+                    }
+                    .text-input2 {
+                        max-width: 115rem;
+                    }
+                }
+            }
+        }
+    }
+    .section-perfil {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        max-width: 83rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive(1550px)
+{
+    .section-tabela {
+        .container2 {
+            table {
+                tr {
+                    .tam-icon-tabela {
+                        margin-right: -30.5px;
+                    }
+                }
+            }
+        }
+    }
+    .fundo-tabela {
+        .section-tabela2 {
+            .container2 {
+                table {
+                    tr {
+                        .tam-icon-tabela {
+                            margin-right: -31px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 141rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 139px;
+                            }
+                        }
+                        .inputs {
+                            .input-cadastro-cli-e-workers2 {
+                                width: 41.3%;
+                            }
+                            .input-cadastro-cli-e-workers2-1 {
+                                width: 41.3%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 140.2rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 16.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-alterar-senha {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        .text-email {
+                            margin-right: 17.5rem;
+                        }
+                    }
+                    .input-cadastro-cli-e-workers2-1 {
+                        margin-left: 735px
+                    }
+                    .input-cadastro-cli-e-workers2-2 {
+                        width: 18.3%;
+                    }
+                    .text-input2 {
+                        max-width: 112rem;
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers {
+        max-width: 140.8rem;
+    }
+    .input-cadastro-cli-e-workers2-1 {
+        width: 42.5%;
+        margin-left: 75rem;
+    }
+    .section-perfil {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        max-width: 80rem;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@include responsive(1440px)
+{
+    .section-tabela {
+        .container2 {
+            table {
+                tr {
+                    .tam-icon-tabela {
+                        margin-right: -25.9px;
+                    }
+                }
+            }
+        }
+    }
+    .fundo-tabela {
+        .section-tabela2 {
+            .container2 {
+                table {
+                    tr {
+                        .tam-icon-tabela {
+                            margin-right: -27.5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers {
+        max-width: 130rem;
+    }
+    .section-alterar-senha {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        .text-email {
+                            margin-right: 241px;
+                        }
+                    }
+                    .input-cadastro-cli-e-workers2-1 {
+                        margin-left: 670px
+                    }
+                    .input-cadastro-cli-e-workers2-2 {
+                        width: 17%;
+                    }
+                    .text-input2 {
+                        max-width: 104.6rem;
+                    }
+                }
+            }
+        }
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 129.6rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 21rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers2-1 {
+        width: 42.5%;
+        margin-left: 704px;
+    }
+    .section-perfil {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        max-width: 76rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@include responsive(1400px)
+{   
+    html {
+        font-size: 55.5%;      
+    }
+    header {
+        .container {
+            .retangulo {
+                width: 57rem;
+                .input-header {
+                    width: 57rem;
+                }
+            }
+        }
+    }
+    .section-tabela {
+        .container2 {
+            table {
+                tr {
+                    .tam-icon-tabela {
+                        margin-right: -27px;
+                    }
+                }
+            }
+        }
+    }
+    .fundo-tabela {
+        .section-tabela2 {
+            .container2 {
+                table {
+                    tr {
+                        .tam-icon-tabela {
+                            margin-right: -27px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .status {
+        position: relative;
+        width: 62.5rem;
+        height: 40.3rem;
+        margin-left: 44rem;
+        margin-top: 18.5rem;
+    }
+    .input-cadastro-cli-e-workers {
+        max-width: 143rem;
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 143.6rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 235px;
+                            }
+                        }
+                        .inputs {
+                            .input-cadastro-cli-e-workers2-1 {
+                                width: 42.3%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers2 {
+        width: 42.5%;
+    }
+    .input-cadastro-cli-e-workers2-1 {
+        width: 42.5%;
+        margin-left: 680px;
+    }
+    .section-alterar-senha {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        .text-email {
+                            margin-right: 240px;
+                        }
+                    }
+                    .input-cadastro-cli-e-workers2-1 {
+                        margin-left: 670px
+                    }
+                    .input-cadastro-cli-e-workers2-2 {
+                        width: 26.75%;
+                    }
+                    .text-input2 {
+                        max-width: 116rem;
+                    }
+                    .inputs-1 {
+                        max-width: 145rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    .section-perfil {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        max-width: 82.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive(1350px)
+{
+    .section-tabela {
+        .container2 {
+            table {
+                tr {
+                    .tam-icon-tabela {
+                        margin-right: -25.5px;
+                    }
+                }
+            }
+        }
+    }
+    .fundo-tabela {
+        .section-tabela2 {
+            .container2 {
+                table {
+                    tr {
+                        .tam-icon-tabela {
+                            margin-right: -26.7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers {
+        max-width: 137.7rem;
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 137.5rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 235px;
+                            }
+                        }
+                        .inputs {
+                            .input-cadastro-cli-e-workers2-1 {
+                                width: 40%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-alterar-senha {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        .text-email {
+                            margin-right: 265px;
+                        }
+                    }
+                    .input-cadastro-cli-e-workers2-1 {
+                        margin-left: 645px
+                    }
+                    .input-cadastro-cli-e-workers2-2 {
+                        width: 26.75%;
+                    }
+                    .text-input2 {
+                        max-width: 112rem;
+                    }
+                    .inputs-1 {
+                        max-width: 145rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers2-1 {
+        width: 42.5%;
+        margin-left: 73rem;
+    }
+    .section-perfil {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        max-width: 79rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive(1200px)
+{
+    html {
+        font-size: 53.5%;      
+    }
+    header {
+        .container {
+            .retangulo {
+                width: 55rem;
+                .input-header {
+                    width: 55rem;
+                }
+            }
+            .icon-header {
+                padding-top: 10.5rem;
+                ul {
+                    li {
+                        img {
+                            max-width: 6.7rem;
+                            max-height: 6.7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-tabela {
+        .container2 {
+            table {
+                tr {
+                    .tam-icon-tabela {
+                        margin-right: -21px;
+                    }
+                }
+            }
+        }
+    }
+    .fundo-tabela {
+        .section-tabela2 {
+            .container2 {
+                table {
+                    tr {
+                        .tam-icon-tabela {
+                            margin-right: -21px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .status {
+        position: relative;
+        width: 62.5rem;
+        height: 40.3rem;
+        margin-left: 38rem;
+        margin-top: 18.5rem;
+    }
+    .input-cadastro-cli-e-workers {
+        max-width: 126rem;
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 125.6rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 335px;
+                            }
+                        }
+                        .inputs {
+                            .input-cadastro-cli-e-workers2-1 {
+                                width: 41.3%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers2 {
+        width: 41.5%;
+    }
+    .input-cadastro-cli-e-workers2-1 {
+        width: 41.5%;
+        margin-left: 577px;
+    }
+    .section-alterar-senha {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        .text-email {
+                            margin-right: 340px;
+                        }
+                    }
+                    .input-cadastro-cli-e-workers2-1 {
+                        margin-left: 570px
+                    }
+                    .input-cadastro-cli-e-workers2-2 {
+                        width: 16%;
+                    }
+                    .text-input2 {
+                        max-width: 97rem;
+                    }
+                    .inputs-1 {
+                        max-width: 115rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    .section-perfil {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        max-width: 73.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive(1000px)
+{
+    html {
+        font-size: 45.5%;      
+    }
+    header {
+        .container {
+            .retangulo {
+                width: 50rem;
+                .input-header {
+                    width: 50rem;
+                }
+            }
+            .icon-header {
+                padding-top: 13.5rem;
+                ul {
+                    li {
+                        img {
+                            max-width: 6.5rem;
+                            max-height: 6.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-tabela {
+        .container2 {
+            table {
+                tr {
+                    .tam-icon-tabela {
+                        margin-right: -16.5px;
+                    }
+                }
+            }
+        }
+    }
+    .fundo-tabela {
+        .section-tabela2 {
+            .container2 {
+                table {
+                    tr {
+                        .tam-icon-tabela {
+                            margin-right: -16.5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers {
+        max-width: 123rem;
+    }
+    .section-cadastro-worker {
+        .container {
+            .input-cadastro-cli-e-workers {
+                max-width: 123.5rem;
+            }
+            form {
+                .input-esp {
+                    .input1 {
+                        .text-input {
+                            .text-cliente {
+                                margin-right: 342px;
+                            }
+                        }
+                        .inputs {
+                            .input-cadastro-cli-e-workers2-1 {
+                                width: 40.3%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input-cadastro-cli-e-workers2-1 {
+        width: 40%;
+        margin-left: 497px;
+    }
+    .section-alterar-senha {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        .text-email {
+                            margin-right: 350px;
+                        }
+                    }
+                    .input-cadastro-cli-e-workers2-1 {
+                        margin-left: 490px
+                    }
+                    .input-cadastro-cli-e-workers2-2 {
+                        width: 14.9%;
+                    }
+                    .text-input2 {
+                        max-width: 100.6rem;
+                    }
+                    .inputs-1 {
+                        max-width: 115rem;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    .section-perfil {
+        form {
+            .input-esp {
+                .input1 {
+                    .text-input {
+                        max-width: 75.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
